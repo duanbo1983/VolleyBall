@@ -14,4 +14,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_below="@id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/myImage2"
+        android:layout_below="@id/myImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/networkImageView"
+        android:layout_below="@id/myImage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
 </RelativeLayout>
